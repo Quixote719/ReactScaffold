@@ -1,0 +1,49 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "jest": true,
+        "node": true
+    },
+    "extends": ["react-app", "eslint:recommended", "plugin:react/recommended", "plugin:prettier/recommended"],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true,
+            "legacyDecorators": true,
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "plugins": ["react", "react-hooks", "babel"],
+    "parser": "babel-eslint",
+    "rules": {
+        "react/prop-types": 0,
+        "react/no-deprecated": 0,
+        "react/no-unknown-property": 0,
+        "react/display-name": 0,
+        "indent": 0,
+        "no-useless-escape": "off",
+        "no-unneeded-ternary": ["error", { "defaultAssignment": false }],
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error",
+        "react/no-unused-state": "error",
+        "react/jsx-key": "off",
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn",
+        "react/no-find-dom-node": "off",
+        "react/no-string-refs": "warn",
+        "no-console": [
+            "error",
+            {
+                "allow": ["warn", "error", "info"]
+            }
+        ],
+        "no-extra-boolean-cast": "off",
+        "no-constant-condition": [
+            "error",
+            {
+                "checkLoops": false
+            }
+        ]
+    }
+}

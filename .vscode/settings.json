@@ -1,0 +1,29 @@
+{
+    "eslint.validate": [
+        {
+            "language": "html",
+            "autoFix": true
+        },
+        {
+            "language": "javascript",
+            "autoFix": true
+        },
+        {
+            "language": "javascriptreact",
+            "autoFix": true
+        }
+    ],
+    "editor.tabSize": 4,
+    "prettier.tabWidth": 4,
+    "editor.formatOnSave": true,
+    // "editor.codeActionsOnSave": {
+    //     "source.fixAll.eslint": true
+    // },
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    "workbench.editor.showTabs": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "git.ignoreLimitWarning": true,
+    "path-intellisense.mappings": {
+        "@": "${workspaceRoot}/src"
+    }
+}
